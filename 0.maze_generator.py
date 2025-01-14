@@ -30,14 +30,10 @@ def create_maze(width, height):
     return maze
 
 def save_maze_to_file(maze, filename):
-    folder = "Maze_Source"
-    os.makedirs(folder, exist_ok=True)
-    filepath = os.path.join(folder, filename)
-
-    with open(filepath, 'w') as f:
+    with open(filename, 'w') as f:
         for row in maze[1:-1]:
             f.write(' '.join(map(str, row[1:-1])) + '\n')
-
+            
 def save_maze_as_image(maze, filename, cell_size=10):
     folder = "Maze_Source"
     os.makedirs(folder, exist_ok=True)

@@ -85,7 +85,7 @@ def theta_star(maze, start, target, screen):
         screen.fill(BLACK)
         draw_maze(maze, path, screen, open_set, closed_set, current.position)  # Draw maze with current state
         pygame.display.flip()
-        time.sleep(0.01)  # Delay for visual effect
+        time.sleep(0.0000001)  # Delay for visual effect
 
         if current.position == target:
             # Reconstruct the path
