@@ -9,7 +9,9 @@
 # INSTALL:
 
 pip install numpy
+
 pip install Pillow
+
 pip install pygame
 
 # HOW TO USE:
@@ -38,5 +40,5 @@ run '2.A_Star.py'         to run A*
 run '3.Theta_Star.py'     to run Theta*
 
     file Theta_Star.png in RESULT
-    
+
 ![PICTURE](RESULT/Theta_Star.png)
