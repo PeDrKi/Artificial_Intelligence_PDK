@@ -1,0 +1,2 @@
+Hiện tại  : Ứng dụng giải quyết mê cung chỉ sử dụng cho đồ thị không có trọng số
+Phát triển: Ứng dụng giải quyết trên đồ thị có trọng số và so sánh (Ứng dụng cho các môi trường khác nhau)
